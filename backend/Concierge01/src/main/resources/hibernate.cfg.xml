@@ -14,7 +14,12 @@
                 <property name="show_sql">true</property>
                 <property name="hbm2ddl.auto">update</property>
                 <mapping class="es.upm.dit.isst.grupo1.model.Client"/>
+                <mapping class="es.upm.dit.isst.grupo1.model.Restaurants"/>
+                <mapping class="es.upm.dit.isst.grupo1.model.RoomService"/>
                 <mapping class="es.upm.dit.isst.grupo1.model.Service"/>
-                
+                <mapping class="es.upm.dit.isst.grupo1.model.Shopping"/>
+                <mapping class="es.upm.dit.isst.grupo1.model.Shows"/>
+                <mapping class="es.upm.dit.isst.grupo1.model.Tours"/>
+                <mapping class="es.upm.dit.isst.grupo1.model.Transports"/>
         </session-factory>
 </hibernate-configuration>
