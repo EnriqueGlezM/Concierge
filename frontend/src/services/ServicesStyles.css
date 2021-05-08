@@ -85,6 +85,28 @@ h1, h2, h3, h4, h5, h6 {
     fill: #fff;
 }
 
+
+.firstView .icon .svg-arrow .shape-1 {
+    animation: arrowShape 2s infinite;
+    animation-timing-function: linear;
+}
+
+.firstView .icon .svg-arrow .shape-2 {
+    animation: arrowShape 2s .2s infinite;
+    animation-timing-function: linear;
+}
+
+.firstView .icon .svg-arrow .shape-3 {
+    animation: arrowShape 2s .4s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes arrowShape {
+    50% {
+        opacity: 0;
+    }
+}
+
 .firstArticle {
     padding-bottom: 2rem;
     padding-top: 3rem;
