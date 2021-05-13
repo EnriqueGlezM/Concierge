@@ -2,7 +2,6 @@ package es.upm.dit.isst.grupo1.model;
 
 
 import java.io.Serializable;
-import java.util.ArrayList;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,6 +29,9 @@ public class Shopping implements Serializable {
 		private String photo;
 		private Integer quantity;
 		private String category;
+		
+		public Shopping() {}
+		
 		public int getId() {
 			return id;
 		}
