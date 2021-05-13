@@ -29,9 +29,7 @@ public class Shopping implements Serializable {
 		private String photo;
 		private Integer quantity;
 		private String category;
-		
-		public Shopping() {}
-		
+				
 		public int getId() {
 			return id;
 		}
