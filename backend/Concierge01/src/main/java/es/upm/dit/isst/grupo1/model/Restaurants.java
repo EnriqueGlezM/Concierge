@@ -92,6 +92,9 @@ public class Restaurants implements Serializable {
 			this.description = description;
 			this.photo = photo;
 		}
+		public Restaurants() {
+			// TODO Auto-generated constructor stub
+		}
 		
 		
 		

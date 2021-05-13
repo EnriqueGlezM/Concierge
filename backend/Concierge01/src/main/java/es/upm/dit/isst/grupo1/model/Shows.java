@@ -92,6 +92,9 @@ public class Shows implements Serializable {
 			this.description = description;
 			this.photos = photos;
 		}
+		public Shows() {
+			// TODO Auto-generated constructor stub
+		}
         
         
 		

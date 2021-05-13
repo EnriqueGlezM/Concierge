@@ -84,6 +84,9 @@ public class Transports implements Serializable {
 			this.description = description;
 			this.photos = photos;
 		}
+		public Transports() {
+			// TODO Auto-generated constructor stub
+		}
         
         
         

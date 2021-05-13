@@ -83,6 +83,9 @@ public class Tours implements Serializable {
 			this.description = description;
 			this.photos = photos;
 		}
+		public Tours() {
+			// TODO Auto-generated constructor stub
+		}
         
         
 		
