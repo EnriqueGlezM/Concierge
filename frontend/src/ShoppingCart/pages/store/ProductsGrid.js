@@ -25,12 +25,12 @@ export default class ProductsGrid extends React.Component {
 
                     <div className="custom-control custom-switch"
                          style={{justifyContent: 'flex-end', alignItems: 'center', display: 'flex', flex: 1, paddingRight: '15px'}}>
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1"
+                        <input type="checkbox" className="custom-control-input" id="customSwitch1"
                                onClick={ () => {
                                    this.setState( {showPoints: !this.state.showPoints})
                                }}
                         />
-                        <label class="custom-control-label" for="customSwitch1">Show in Hotel Points</label>
+                        <label className="custom-control-label" htmlFor="customSwitch1">Show in Hotel Points</label>
                     </div>
 
                 </div>

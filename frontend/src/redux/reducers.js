@@ -13,7 +13,7 @@ import {
     SUBMIT,
     UPDATE,
     USER_ANSWER,
-    INIT_CLIENTS
+    INIT_DATA
 } from './actions'
 
 function login(state = [], action = {}) {
@@ -102,8 +102,8 @@ function clients(state = [], action = {}) {
             }
             return state;
 
-        case INIT_CLIENTS:
-            return JSON.parse(JSON.stringify(action.payload.clients));
+        case INIT_DATA:
+            return JSON.parse(JSON.stringify(action.payload.initJson[0]));
 
         default:
             return state;
@@ -168,6 +168,10 @@ function cartItems(state = [], action = {}) {
 
 function products(state = [], action = {}) {
     switch (action.type) {
+
+        case INIT_DATA:
+            return JSON.parse(JSON.stringify(action.payload.initJson[1]));
+
         default:
             return state;
     }
