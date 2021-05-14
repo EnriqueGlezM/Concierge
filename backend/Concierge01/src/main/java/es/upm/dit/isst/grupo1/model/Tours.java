@@ -15,7 +15,7 @@ import javax.persistence.ManyToOne;
 public class Tours implements Serializable {
 
 		private static final long serialVersionUID = 1L;
-		
+		@Column(columnDefinition = "LONGTEXT")
 		@Id
 		@GeneratedValue(strategy=GenerationType.AUTO)
 		private int id;
