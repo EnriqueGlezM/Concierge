@@ -93,7 +93,6 @@ public class Restaurants implements Serializable {
 			this.photo = photo;
 		}
 		public Restaurants() {
-			// TODO Auto-generated constructor stub
 		}
 		
 		

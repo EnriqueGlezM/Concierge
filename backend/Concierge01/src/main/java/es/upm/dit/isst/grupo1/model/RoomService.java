@@ -94,7 +94,6 @@ public class RoomService implements Serializable {
 			this.photos = photos;
 		}
 		public RoomService() {
-			// TODO Auto-generated constructor stub
 		}
 		
 		

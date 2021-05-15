@@ -1,9 +1,7 @@
 package es.upm.dit.isst.grupo1.model;
 
 import java.io.Serializable;
-import java.util.Date;
 
-import javax.json.Json;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

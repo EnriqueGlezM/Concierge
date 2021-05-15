@@ -75,6 +75,7 @@ public class TransportsDAOImplementation implements TransportsDAO{
 		return transports;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Transports> readAll() {
 		Session session = SessionFactoryService.get().openSession();

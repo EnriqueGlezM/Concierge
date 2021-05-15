@@ -73,6 +73,7 @@ public class ServiceDAOImplementation implements ServiceDAO{
 		return service;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Service> readAll() {
 		Session session = SessionFactoryService.get().openSession();

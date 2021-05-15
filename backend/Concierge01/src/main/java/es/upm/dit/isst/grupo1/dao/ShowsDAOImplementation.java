@@ -75,6 +75,7 @@ public class ShowsDAOImplementation implements ShowsDAO{
 		return shows;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Shows> readAll() {
 		Session session = SessionFactoryService.get().openSession();
