@@ -16,6 +16,6 @@ El servicio dispone de un backend creado usando una base de datos y un servidor 
 
 ### Algunas fotos del servicio
 
-![App image](fotos/foto1.PNG)
+![App image](fotos/foto1.jpeg)
 
-![App image2](fotos/foto2.PNG)
+![App image2](fotos/foto2.jpeg)
