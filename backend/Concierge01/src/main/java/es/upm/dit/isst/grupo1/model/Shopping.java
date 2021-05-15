@@ -101,7 +101,6 @@ public class Shopping implements Serializable {
 			this.category = category;
 		}
 		public Shopping() {
-			// TODO Auto-generated constructor stub
 		}
 		
 		

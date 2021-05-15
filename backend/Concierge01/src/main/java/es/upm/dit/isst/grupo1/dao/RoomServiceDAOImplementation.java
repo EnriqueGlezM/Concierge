@@ -75,6 +75,7 @@ public class RoomServiceDAOImplementation implements RoomServiceDAO{
 		return roomService;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<RoomService> readAll() {
 		Session session = SessionFactoryService.get().openSession();

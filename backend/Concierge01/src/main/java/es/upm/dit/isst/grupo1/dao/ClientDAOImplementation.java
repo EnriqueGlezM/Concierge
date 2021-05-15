@@ -73,6 +73,7 @@ public class ClientDAOImplementation implements ClientDAO{
 		return client;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Client> readAll() {
 		Session session = SessionFactoryService.get().openSession();
@@ -88,6 +89,7 @@ public class ClientDAOImplementation implements ClientDAO{
 		return client;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public Client verificarLogin(String DNI, String room) {
 

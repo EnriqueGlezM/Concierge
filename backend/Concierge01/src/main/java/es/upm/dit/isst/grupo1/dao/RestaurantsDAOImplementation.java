@@ -73,6 +73,7 @@ public class RestaurantsDAOImplementation implements RestaurantsDAO{
 		return restaurant;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Restaurants> readAll() {
 		Session session = SessionFactoryService.get().openSession();

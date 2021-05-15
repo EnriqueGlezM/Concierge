@@ -75,6 +75,7 @@ public class ToursDAOImplementation implements ToursDAO{
 		return tours;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Tours> readAll() {
 		Session session = SessionFactoryService.get().openSession();

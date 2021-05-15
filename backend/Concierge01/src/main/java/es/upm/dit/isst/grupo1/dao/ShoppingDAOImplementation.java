@@ -76,6 +76,7 @@ public class ShoppingDAOImplementation implements ShoppingDAO{
 		return shopping;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Shopping> readAll() {
 		Session session = SessionFactoryService.get().openSession();
