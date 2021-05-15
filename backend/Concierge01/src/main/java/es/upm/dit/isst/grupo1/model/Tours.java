@@ -84,11 +84,5 @@ public class Tours implements Serializable {
 			this.photos = photos;
 		}
 		public Tours() {
-		}
-        
-        
-		
-        
-        
-		
+		}      	
 }

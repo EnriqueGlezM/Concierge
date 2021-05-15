@@ -93,8 +93,5 @@ public class Shows implements Serializable {
 			this.photos = photos;
 		}
 		public Shows() {
-		}
-        
-        
-		
+		} 	
 }

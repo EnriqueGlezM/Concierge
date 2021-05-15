@@ -85,9 +85,5 @@ public class Transports implements Serializable {
 			this.photos = photos;
 		}
 		public Transports() {
-		}
-        
-        
-        
-		
+		}       	
 }

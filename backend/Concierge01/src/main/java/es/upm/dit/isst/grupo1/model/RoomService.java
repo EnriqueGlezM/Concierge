@@ -94,11 +94,7 @@ public class RoomService implements Serializable {
 			this.photos = photos;
 		}
 		public RoomService() {
-		}
-		
-		
-		
-		
+		}	
 }		
 		
 		
