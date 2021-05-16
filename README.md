@@ -28,10 +28,10 @@ El servicio dispone de un backend creado usando una base de datos y un servidor 
 
 ### Autores:
 
-Alejandro Aguilera Alcalde
-Enrique González Macías
-Javier Martínez Arroyo
-Pablo Barba Sabín
-Roberto Martín Luengo
+Alejandro Aguilera Alcalde,
+Enrique González Macías,
+Javier Martínez Arroyo,
+Pablo Barba Sabín y
+Roberto Martín Luengo.
 
 
