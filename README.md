@@ -25,3 +25,13 @@ El servicio dispone de un backend creado usando una base de datos y un servidor 
 ![App image4](fotos/foto2.jpeg)
 
 ![App image5](fotos/fotoCarrito.jpeg)
+
+### Autores:
+
+Alejandro Aguilera Alcalde
+Enrique González Macías
+Javier Martínez Arroyo
+Pablo Barba Sabín
+Roberto Martín Luengo
+
+
